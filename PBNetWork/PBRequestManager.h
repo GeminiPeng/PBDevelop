@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  PBRequestManager.h
 //  PBDevelop
 //
 //  Created by Pengbo on 2017/2/20.
 //  Copyright © 2017年 PBDevFoundation. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface PBRequestManager : NSObject
 
 @end
-

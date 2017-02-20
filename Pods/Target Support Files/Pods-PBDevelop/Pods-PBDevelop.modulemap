@@ -1,0 +1,6 @@
+framework module Pods_PBDevelop {
+  umbrella header "Pods-PBDevelop-umbrella.h"
+
+  export *
+  module * { export * }
+}
