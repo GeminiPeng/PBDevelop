@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B411979B1E5C0A8900C3563C /* Nav3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B411979A1E5C0A8900C3563C /* Nav3Controller.m */; };
+		B41197A41E5E838900C3563C /* CustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B41197A31E5E838900C3563C /* CustomModel.m */; };
+		B41197A71E5E839D00C3563C /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B41197A61E5E839D00C3563C /* TableViewDataSource.m */; };
+		B41197AA1E5E83AF00C3563C /* TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B41197A91E5E83AF00C3563C /* TableViewDelegate.m */; };
+		B41197AD1E5E83D500C3563C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41197AC1E5E83D500C3563C /* TableViewController.m */; };
+		B41197B01E5E83F800C3563C /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B41197AF1E5E83F800C3563C /* CustomTableViewCell.m */; };
+		B41197B31E5E840D00C3563C /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B41197B21E5E840D00C3563C /* TableViewModel.m */; };
 		B420B13D1E5AED1900AAC7FB /* PBRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B13C1E5AED1900AAC7FB /* PBRequestManager.m */; };
+		B420B1401E5BF2C300AAC7FB /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B13F1E5BF2C300AAC7FB /* TabBarViewController.m */; };
+		B420B1461E5BF41800AAC7FB /* View1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B1451E5BF41800AAC7FB /* View1Controller.m */; };
+		B420B1491E5BF42400AAC7FB /* View2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B1481E5BF42400AAC7FB /* View2Controller.m */; };
+		B420B14C1E5BF4CB00AAC7FB /* View3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B14B1E5BF4CB00AAC7FB /* View3Controller.m */; };
+		B420B14F1E5BF52300AAC7FB /* Nav1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B14E1E5BF52300AAC7FB /* Nav1Controller.m */; };
+		B420B1521E5BF53400AAC7FB /* Nav2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B1511E5BF53400AAC7FB /* Nav2Controller.m */; };
 		B4C465EE1E5AE3EF0066EA2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C465ED1E5AE3EF0066EA2E /* main.m */; };
 		B4C465F11E5AE3EF0066EA2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C465F01E5AE3EF0066EA2E /* AppDelegate.m */; };
 		B4C465F71E5AE3EF0066EA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C465F51E5AE3EF0066EA2E /* Main.storyboard */; };
@@ -18,8 +31,34 @@
 
 /* Begin PBXFileReference section */
 		B25185B770EA753EC8D30FC8 /* Pods-PBDevelop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBDevelop.release.xcconfig"; path = "Pods/Target Support Files/Pods-PBDevelop/Pods-PBDevelop.release.xcconfig"; sourceTree = "<group>"; };
+		B41197991E5C0A8900C3563C /* Nav3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav3Controller.h; sourceTree = "<group>"; };
+		B411979A1E5C0A8900C3563C /* Nav3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav3Controller.m; sourceTree = "<group>"; };
+		B41197A21E5E838900C3563C /* CustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModel.h; sourceTree = "<group>"; };
+		B41197A31E5E838900C3563C /* CustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModel.m; sourceTree = "<group>"; };
+		B41197A51E5E839D00C3563C /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		B41197A61E5E839D00C3563C /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		B41197A81E5E83AF00C3563C /* TableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDelegate.h; sourceTree = "<group>"; };
+		B41197A91E5E83AF00C3563C /* TableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDelegate.m; sourceTree = "<group>"; };
+		B41197AB1E5E83D500C3563C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B41197AC1E5E83D500C3563C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		B41197AE1E5E83F800C3563C /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		B41197AF1E5E83F800C3563C /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		B41197B11E5E840D00C3563C /* TableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewModel.h; sourceTree = "<group>"; };
+		B41197B21E5E840D00C3563C /* TableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewModel.m; sourceTree = "<group>"; };
 		B420B13B1E5AED1900AAC7FB /* PBRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRequestManager.h; sourceTree = "<group>"; };
 		B420B13C1E5AED1900AAC7FB /* PBRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRequestManager.m; sourceTree = "<group>"; };
+		B420B13E1E5BF2C300AAC7FB /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		B420B13F1E5BF2C300AAC7FB /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		B420B1441E5BF41800AAC7FB /* View1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1Controller.h; sourceTree = "<group>"; };
+		B420B1451E5BF41800AAC7FB /* View1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1Controller.m; sourceTree = "<group>"; };
+		B420B1471E5BF42400AAC7FB /* View2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2Controller.h; sourceTree = "<group>"; };
+		B420B1481E5BF42400AAC7FB /* View2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2Controller.m; sourceTree = "<group>"; };
+		B420B14A1E5BF4CB00AAC7FB /* View3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3Controller.h; sourceTree = "<group>"; };
+		B420B14B1E5BF4CB00AAC7FB /* View3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3Controller.m; sourceTree = "<group>"; };
+		B420B14D1E5BF52300AAC7FB /* Nav1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav1Controller.h; sourceTree = "<group>"; };
+		B420B14E1E5BF52300AAC7FB /* Nav1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav1Controller.m; sourceTree = "<group>"; };
+		B420B1501E5BF53400AAC7FB /* Nav2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav2Controller.h; sourceTree = "<group>"; };
+		B420B1511E5BF53400AAC7FB /* Nav2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav2Controller.m; sourceTree = "<group>"; };
 		B4C465E91E5AE3EF0066EA2E /* PBDevelop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBDevelop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C465ED1E5AE3EF0066EA2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4C465EF1E5AE3EF0066EA2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +91,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B411979C1E5E82DE00C3563C /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				B411979D1E5E832500C3563C /* Controller */,
+				B411979E1E5E832500C3563C /* Model */,
+				B411979F1E5E832500C3563C /* TableviewProtocol */,
+				B41197A01E5E832500C3563C /* View */,
+				B41197A11E5E832500C3563C /* ViewModel */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		B411979D1E5E832500C3563C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B41197AB1E5E83D500C3563C /* TableViewController.h */,
+				B41197AC1E5E83D500C3563C /* TableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B411979E1E5E832500C3563C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B41197A21E5E838900C3563C /* CustomModel.h */,
+				B41197A31E5E838900C3563C /* CustomModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B411979F1E5E832500C3563C /* TableviewProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				B41197A51E5E839D00C3563C /* TableViewDataSource.h */,
+				B41197A61E5E839D00C3563C /* TableViewDataSource.m */,
+				B41197A81E5E83AF00C3563C /* TableViewDelegate.h */,
+				B41197A91E5E83AF00C3563C /* TableViewDelegate.m */,
+			);
+			path = TableviewProtocol;
+			sourceTree = "<group>";
+		};
+		B41197A01E5E832500C3563C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B41197AE1E5E83F800C3563C /* CustomTableViewCell.h */,
+				B41197AF1E5E83F800C3563C /* CustomTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B41197A11E5E832500C3563C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B41197B11E5E840D00C3563C /* TableViewModel.h */,
+				B41197B21E5E840D00C3563C /* TableViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B420B13A1E5AEB4A00AAC7FB /* PBNetWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +162,7 @@
 		B4C465E01E5AE3EF0066EA2E = {
 			isa = PBXGroup;
 			children = (
+				B411979C1E5E82DE00C3563C /* UITableView */,
 				B420B13A1E5AEB4A00AAC7FB /* PBNetWork */,
 				B4C465EB1E5AE3EF0066EA2E /* PBDevelop */,
 				B4C465EA1E5AE3EF0066EA2E /* Products */,
@@ -83,8 +182,22 @@
 		B4C465EB1E5AE3EF0066EA2E /* PBDevelop */ = {
 			isa = PBXGroup;
 			children = (
+				B420B13E1E5BF2C300AAC7FB /* TabBarViewController.h */,
+				B420B13F1E5BF2C300AAC7FB /* TabBarViewController.m */,
 				B4C465EF1E5AE3EF0066EA2E /* AppDelegate.h */,
 				B4C465F01E5AE3EF0066EA2E /* AppDelegate.m */,
+				B420B14D1E5BF52300AAC7FB /* Nav1Controller.h */,
+				B420B14E1E5BF52300AAC7FB /* Nav1Controller.m */,
+				B420B1441E5BF41800AAC7FB /* View1Controller.h */,
+				B420B1451E5BF41800AAC7FB /* View1Controller.m */,
+				B420B1501E5BF53400AAC7FB /* Nav2Controller.h */,
+				B420B1511E5BF53400AAC7FB /* Nav2Controller.m */,
+				B420B1471E5BF42400AAC7FB /* View2Controller.h */,
+				B420B1481E5BF42400AAC7FB /* View2Controller.m */,
+				B41197991E5C0A8900C3563C /* Nav3Controller.h */,
+				B411979A1E5C0A8900C3563C /* Nav3Controller.m */,
+				B420B14A1E5BF4CB00AAC7FB /* View3Controller.h */,
+				B420B14B1E5BF4CB00AAC7FB /* View3Controller.m */,
 				B4C465F51E5AE3EF0066EA2E /* Main.storyboard */,
 				B4C465F81E5AE3EF0066EA2E /* Assets.xcassets */,
 				B4C465FA1E5AE3EF0066EA2E /* LaunchScreen.storyboard */,
@@ -145,6 +258,7 @@
 				TargetAttributes = {
 					B4C465E81E5AE3EF0066EA2E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RF5FKDJ4K4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -233,9 +347,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B420B1461E5BF41800AAC7FB /* View1Controller.m in Sources */,
+				B411979B1E5C0A8900C3563C /* Nav3Controller.m in Sources */,
+				B420B1401E5BF2C300AAC7FB /* TabBarViewController.m in Sources */,
+				B420B1491E5BF42400AAC7FB /* View2Controller.m in Sources */,
 				B4C465F11E5AE3EF0066EA2E /* AppDelegate.m in Sources */,
+				B41197AD1E5E83D500C3563C /* TableViewController.m in Sources */,
 				B420B13D1E5AED1900AAC7FB /* PBRequestManager.m in Sources */,
+				B41197AA1E5E83AF00C3563C /* TableViewDelegate.m in Sources */,
+				B41197B01E5E83F800C3563C /* CustomTableViewCell.m in Sources */,
+				B41197A71E5E839D00C3563C /* TableViewDataSource.m in Sources */,
+				B420B14F1E5BF52300AAC7FB /* Nav1Controller.m in Sources */,
+				B420B14C1E5BF4CB00AAC7FB /* View3Controller.m in Sources */,
 				B4C465EE1E5AE3EF0066EA2E /* main.m in Sources */,
+				B41197A41E5E838900C3563C /* CustomModel.m in Sources */,
+				B420B1521E5BF53400AAC7FB /* Nav2Controller.m in Sources */,
+				B41197B31E5E840D00C3563C /* TableViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +481,7 @@
 			baseConfigurationReference = FFE327DCE1FCE736048E9E5F /* Pods-PBDevelop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RF5FKDJ4K4;
 				INFOPLIST_FILE = PBDevelop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.foundation.iOS.PBDevelop;
@@ -366,6 +494,7 @@
 			baseConfigurationReference = B25185B770EA753EC8D30FC8 /* Pods-PBDevelop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RF5FKDJ4K4;
 				INFOPLIST_FILE = PBDevelop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.foundation.iOS.PBDevelop;

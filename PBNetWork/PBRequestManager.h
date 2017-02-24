@@ -10,4 +10,10 @@
 
 @interface PBRequestManager : NSObject
 
++ (instancetype)shareRequestManager;
+
+- (void)launchRequest:(NSObject *)request;
+
+- (void)cancelRequest:(NSObject *)request;
+
 @end

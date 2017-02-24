@@ -7,6 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarViewController.h"
+
+#import "View1Controller.h"
+#import "View2Controller.h"
+#import "View3Controller.h"
+
+#import "Nav1Controller.h"
+#import "Nav2Controller.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +25,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    TabBarViewController *tb = [[TabBarViewController alloc]init];
+    
+    View1Controller * view1 = [[View1Controller alloc]init];
+    Nav1Controller * nav1 = [[Nav1Controller alloc]initWithRootViewController:view1];
+    
+    View2Controller * view2 = [[View2Controller alloc]init];
+    Nav2Controller * nav2 = [[Nav2Controller alloc]initWithRootViewController:view2];
+    
+    tb.viewControllers = @[nav1,nav2];
+    
+    [tb configTabItems];
+    
+    self.window.rootViewController = tb;
+    
+    
+    
     return YES;
 }
 
