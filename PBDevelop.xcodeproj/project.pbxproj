@@ -21,6 +21,10 @@
 		B420B14C1E5BF4CB00AAC7FB /* View3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B14B1E5BF4CB00AAC7FB /* View3Controller.m */; };
 		B420B14F1E5BF52300AAC7FB /* Nav1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B14E1E5BF52300AAC7FB /* Nav1Controller.m */; };
 		B420B1521E5BF53400AAC7FB /* Nav2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B420B1511E5BF53400AAC7FB /* Nav2Controller.m */; };
+		B4B9E6511E640DDD00AD8D19 /* NSArray+LocaleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B9E6501E640DDD00AD8D19 /* NSArray+LocaleLog.m */; };
+		B4B9E6551E64276A00AD8D19 /* NSDictionary+LocaleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B9E6541E64276A00AD8D19 /* NSDictionary+LocaleLog.m */; };
+		B4B9E6581E650ECC00AD8D19 /* NSDictionary+Net.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B9E6571E650ECC00AD8D19 /* NSDictionary+Net.m */; };
+		B4B9E65B1E65568D00AD8D19 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B9E65A1E65568D00AD8D19 /* NSDictionary+JSON.m */; };
 		B4C465EE1E5AE3EF0066EA2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C465ED1E5AE3EF0066EA2E /* main.m */; };
 		B4C465F11E5AE3EF0066EA2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C465F01E5AE3EF0066EA2E /* AppDelegate.m */; };
 		B4C465F71E5AE3EF0066EA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C465F51E5AE3EF0066EA2E /* Main.storyboard */; };
@@ -59,6 +63,14 @@
 		B420B14E1E5BF52300AAC7FB /* Nav1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav1Controller.m; sourceTree = "<group>"; };
 		B420B1501E5BF53400AAC7FB /* Nav2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav2Controller.h; sourceTree = "<group>"; };
 		B420B1511E5BF53400AAC7FB /* Nav2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav2Controller.m; sourceTree = "<group>"; };
+		B4B9E64F1E640DDD00AD8D19 /* NSArray+LocaleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LocaleLog.h"; sourceTree = "<group>"; };
+		B4B9E6501E640DDD00AD8D19 /* NSArray+LocaleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LocaleLog.m"; sourceTree = "<group>"; };
+		B4B9E6531E64276A00AD8D19 /* NSDictionary+LocaleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LocaleLog.h"; sourceTree = "<group>"; };
+		B4B9E6541E64276A00AD8D19 /* NSDictionary+LocaleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LocaleLog.m"; sourceTree = "<group>"; };
+		B4B9E6561E650ECC00AD8D19 /* NSDictionary+Net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Net.h"; sourceTree = "<group>"; };
+		B4B9E6571E650ECC00AD8D19 /* NSDictionary+Net.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Net.m"; sourceTree = "<group>"; };
+		B4B9E6591E65568D00AD8D19 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		B4B9E65A1E65568D00AD8D19 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		B4C465E91E5AE3EF0066EA2E /* PBDevelop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBDevelop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C465ED1E5AE3EF0066EA2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4C465EF1E5AE3EF0066EA2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,9 +171,41 @@
 			path = PBNetWork;
 			sourceTree = "<group>";
 		};
+		B4B9E64C1E640B8200AD8D19 /* PBExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B4B9E6521E64270800AD8D19 /* NSDictionary+ */,
+				B4B9E64D1E640CD700AD8D19 /* NSArray+ */,
+			);
+			path = PBExtension;
+			sourceTree = "<group>";
+		};
+		B4B9E64D1E640CD700AD8D19 /* NSArray+ */ = {
+			isa = PBXGroup;
+			children = (
+				B4B9E64F1E640DDD00AD8D19 /* NSArray+LocaleLog.h */,
+				B4B9E6501E640DDD00AD8D19 /* NSArray+LocaleLog.m */,
+			);
+			path = "NSArray+";
+			sourceTree = "<group>";
+		};
+		B4B9E6521E64270800AD8D19 /* NSDictionary+ */ = {
+			isa = PBXGroup;
+			children = (
+				B4B9E6531E64276A00AD8D19 /* NSDictionary+LocaleLog.h */,
+				B4B9E6541E64276A00AD8D19 /* NSDictionary+LocaleLog.m */,
+				B4B9E6561E650ECC00AD8D19 /* NSDictionary+Net.h */,
+				B4B9E6571E650ECC00AD8D19 /* NSDictionary+Net.m */,
+				B4B9E6591E65568D00AD8D19 /* NSDictionary+JSON.h */,
+				B4B9E65A1E65568D00AD8D19 /* NSDictionary+JSON.m */,
+			);
+			path = "NSDictionary+";
+			sourceTree = "<group>";
+		};
 		B4C465E01E5AE3EF0066EA2E = {
 			isa = PBXGroup;
 			children = (
+				B4B9E64C1E640B8200AD8D19 /* PBExtension */,
 				B411979C1E5E82DE00C3563C /* UITableView */,
 				B420B13A1E5AEB4A00AAC7FB /* PBNetWork */,
 				B4C465EB1E5AE3EF0066EA2E /* PBDevelop */,
@@ -353,15 +397,19 @@
 				B420B1491E5BF42400AAC7FB /* View2Controller.m in Sources */,
 				B4C465F11E5AE3EF0066EA2E /* AppDelegate.m in Sources */,
 				B41197AD1E5E83D500C3563C /* TableViewController.m in Sources */,
+				B4B9E65B1E65568D00AD8D19 /* NSDictionary+JSON.m in Sources */,
 				B420B13D1E5AED1900AAC7FB /* PBRequestManager.m in Sources */,
 				B41197AA1E5E83AF00C3563C /* TableViewDelegate.m in Sources */,
 				B41197B01E5E83F800C3563C /* CustomTableViewCell.m in Sources */,
+				B4B9E6551E64276A00AD8D19 /* NSDictionary+LocaleLog.m in Sources */,
+				B4B9E6511E640DDD00AD8D19 /* NSArray+LocaleLog.m in Sources */,
 				B41197A71E5E839D00C3563C /* TableViewDataSource.m in Sources */,
 				B420B14F1E5BF52300AAC7FB /* Nav1Controller.m in Sources */,
 				B420B14C1E5BF4CB00AAC7FB /* View3Controller.m in Sources */,
 				B4C465EE1E5AE3EF0066EA2E /* main.m in Sources */,
 				B41197A41E5E838900C3563C /* CustomModel.m in Sources */,
 				B420B1521E5BF53400AAC7FB /* Nav2Controller.m in Sources */,
+				B4B9E6581E650ECC00AD8D19 /* NSDictionary+Net.m in Sources */,
 				B41197B31E5E840D00C3563C /* TableViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
